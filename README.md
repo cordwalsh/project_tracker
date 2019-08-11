@@ -12,7 +12,7 @@ The website can be used to keep track of projects.
 
 * Clone this repo to your desktop.
 * Change directories in terminal to this project's folder.
-* Type `createdb volunteer_tracker` into the terminal. Then add this command `psql volunteer_tracker < database_backup.sql`.
+* Type `createdb project_tracker` into the terminal. Then add this command `psql project_tracker < database_backup.sql`.
 * Type `ruby app.rb` to run this project.
 
 
