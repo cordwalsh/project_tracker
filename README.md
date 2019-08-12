@@ -1,4 +1,4 @@
-# Volunteer Tracker
+# Project Tracker
 
 This program helps keep track of projects.
 
