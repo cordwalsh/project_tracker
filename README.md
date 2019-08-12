@@ -1,8 +1,8 @@
 # Volunteer Tracker
 
-This program helps keep track of projects and volunteers on each project.
+This program helps keep track of projects.
 
-#### By Abdellah Ramadan on August 2nd, 2019.
+#### By Cord Walsh
 
 ## Description
 
