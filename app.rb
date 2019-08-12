@@ -19,3 +19,20 @@ end
 get ('/projects') do
   redirect to('/')
 end
+
+get ('/project/:id') do
+  @project = Project.find(params[:id].to_i())
+  erb(:project)
+end
+
+post ('/project/:id') do
+  @project = Project.find(params[:id].to_i())
+  erb(:project)
+end
+
+post ('/project') do
+  title = params[:title]
+  project = Project.new({:title => title, :id => nil})
+  project.save
+  redirect to ('/')
+end
